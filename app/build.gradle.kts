@@ -38,5 +38,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("kotlin_guide_env.AppKt")
+    mainClass.set("kt.guide.AppKt")
 }
