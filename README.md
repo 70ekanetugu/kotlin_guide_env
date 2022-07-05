@@ -13,6 +13,14 @@ GitPod使ってください。手順は以下の通りです。
     - kotlin : 1.7.0
 5. `.gradlew run` でコード実行できることを確認
 
+# Gradle
+```shell
+# main実行
+./gradlew run
+
+# テスト実行(-iで詳細出力, --testsで実行対象を絞り込み)
+./gradlew test [-i] [--tests "package.className[.methodName]]
+```
 
 # 参考資料
 - [Get started with Kotlin](https://kotlinlang.org/docs/getting-started.html)

@@ -40,3 +40,12 @@ application {
     // Define the main class for the application.
     mainClass.set("kt.guide.AppKt")
 }
+
+tasks {
+    compileJava {
+        options.encoding = "UTF-8"
+    }
+    compileTestJava {
+        options.encoding = "UTF-8"
+    }
+}
