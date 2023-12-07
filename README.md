@@ -1,4 +1,5 @@
 # Kotlin入門用
+discord
 
 # 環境構築
 GitPod使います。  
